@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: antiquewhite;
+            padding: 5px;
+            border:  2px solid red;
+            height: 50px;
+            margin: 1.5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="box box1">I am box A</div>
+        <div class="box box2">I am box D</div>
+        <div class="box box3">I am box  3</div>
+        <div class="box box4">I am box  4</div>
+    </div>
+    <script>
+        setTimeout(() => {
+            document.querySelector(".box1").innerHTML="यदा यदा हि धर्मस्य ग्लानिर्भवति भारतअभ्युत्थानमधर्मस्य तदाऽऽत्मानं सृजाम्यहम् ।। परित्राणाय साधूनां विनाशाय च दुष्कृताम् । धर्मसंस्थापनार्थाय संभवामि युगे युगे।। "
+        }, 4000);
+        setTimeout(() => {
+            document.querySelector(".box2").innerHTML="हे भारत जबजब धर्म की हानि और अधर्म की वृद्धि होती है तबतब मैं स्वयं को प्रकट करता हूँ।। साधु पुरुषों के रक्षण दुष्कृत्य करने वालों के नाश तथा धर्म संस्थापना के लिये मैं प्रत्येक युग में प्रगट होता हूँ।। "
+        }, 5000);
+        setTimeout(() => {
+            document.querySelector(".box3").innerHTML="करारविन्देन पदारविन्दंमुखारविन्दे विनिवेशयन्तम्  | वटस्य पत्रस्य पुटे शयानंबालं मुकुन्दं मनसा स्मरामि ॥ "
+        }, 7000);
+        setTimeout(()=>{
+            document.querySelector(".box4").innerHTML=" मैं अपने मन से उस बाल मुकुंद (भगवान कृष्ण) का स्मरण करता हूँ, जो वट वृक्ष के पत्ते पर शयन कर रहे हैं। जिनके कोमल हाथ कमल के समान हैं, जो अपने कमल समान पैरों को अपने मुख में लेकर चूस रहे हैं। इस श्लोक में भगवान श्रीकृष्ण के बाल रूप की सुंदरता और उनकी अद्वितीय भक्ति का वर्णन किया गया है।"
+        },8000)
+
+    </script>
+</body>
+</html>
